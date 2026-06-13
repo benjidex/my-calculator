@@ -1,5 +1,8 @@
 "homepage": "https://benjidex.github.io/my-calculator"
 
+"predeploy": "npm run build",
+"deploy": "gh-pages -d build"
+
 {
   "name": "my-calculator",
   "version": "0.1.0",
